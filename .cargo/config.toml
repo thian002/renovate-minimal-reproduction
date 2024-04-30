@@ -1,5 +1,5 @@
-[registries.cargo-source-replacement]
-index = "https://example.com/path/to/index"
+[source.cargo-source-replacement]
+registry = "https://example.com/path/to/index"
 
 [source.crates-io]
 replace-with = "cargo-source-replacement"
